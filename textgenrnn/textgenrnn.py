@@ -33,7 +33,7 @@ except ModuleNotFoundError:
         from keras.backend import set_session
     except:
         raise
-    
+
 import numpy as np
 import json
 import h5py
